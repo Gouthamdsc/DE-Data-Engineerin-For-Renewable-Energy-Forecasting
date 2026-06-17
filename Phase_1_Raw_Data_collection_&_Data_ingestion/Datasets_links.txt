@@ -1,0 +1,68 @@
+Phase 1 — Raw Data Collection & Data Ingestion
+As part of the Smart Renewable Energy Monitoring & Prediction System, the raw datasets required for renewable energy analytics were collected, validated, and organized for ingestion into the data engineering pipeline.
+
+1. Wind Energy Dataset
+Source: Kaggle – Wind Turbine SCADA Dataset
+Wind Dataset Link: https://www.kaggle.com/datasets/berkerisen/wind-turbine-scada-dataset
+Purpose
+Wind power generation analysis
+Wind speed monitoring
+Wind turbine performance prediction
+Required Columns Used
+timestamp → Date and time of turbine data
+LV ActivePower (kW) → Wind power output
+Wind Speed (m/s) → Wind velocity measurement
+Wind Direction (°) → Wind direction information
+These features are important for predicting wind energy generation.
+
+2. Solar Energy Dataset
+Source: Kaggle – Solar Power Generation Dataset
+Solar Dataset Link: https://www.kaggle.com/datasets/anikannal/solar-power-generation-data
+Purpose
+Solar power generation monitoring
+Solar irradiation analysis
+Solar energy prediction
+Required Columns Used
+DATE_TIME → Timestamp of solar readings
+PLANT_ID → Solar plant identifier
+SOURCE_KEY → Solar panel/inverter ID
+DC_POWER → Direct current solar power generation
+AC_POWER → Alternating current power output
+IRRADIATION → Solar radiation received
+AMBIENT_TEMPERATURE → External temperature
+MODULE_TEMPERATURE → Solar panel temperature
+These features help analyze how sunlight and temperature affect solar energy generation.
+
+3. Grid Power Consumption Dataset
+Source: UCI / Kaggle – Electric Power Consumption Dataset
+Grid Dataset Link: https://www.kaggle.com/datasets/uciml/electric-power-consumption-data-set
+Purpose
+Grid demand monitoring
+Electricity consumption analysis
+Energy load forecasting
+Required Columns Used
+Date → Consumption date
+Time → Consumption time
+Global_active_power → Total household power consumption
+Voltage → Voltage measurement
+Global_intensity → Electrical current intensity
+These features are important for understanding energy demand and grid behavior.
+
+4. Weather Data Integration
+Weather information was integrated because renewable energy generation strongly depends on environmental conditions.
+Weather Data Source
+OpenWeather API
+https://openweathermap.org/
+
+Required Weather Parameters
+temperature → Weather temperature
+humidity → Atmospheric humidity
+wind_speed → Wind speed measurement
+cloud_coverage → Cloud percentage
+API Integration Process
+Created OpenWeather account
+Generated API key from dashboard
+Integrated API into Python using:
+live_weather_api.py
+ 
+Weather data was fetched dynamically to enrich renewable energy prediction.

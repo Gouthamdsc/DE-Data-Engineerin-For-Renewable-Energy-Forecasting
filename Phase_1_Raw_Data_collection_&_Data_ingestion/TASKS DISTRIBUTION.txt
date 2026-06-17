@@ -1,0 +1,47 @@
+TASKS DISTRIBUTION
+Avila (Team Lead)
+Main Responsibility
+Project coordination + integration
+Tasks
+Task planning
+Professor communication
+Meeting management
+Documentation review
+Final integration
+Teams management
+Daily progress tracking
+Data ingestion
+Dashboard
+
+Manideep
+Main Responsibility
+Pipeline Engineering
+Tasks
+NiFi pipeline
+Kafka streaming
+PostgreSQL integration
+Consumer/Producer setup
+Streaming monitoring
+Pipeline debugging
+
+
+
+Gowtham
+Main Responsibility
+Processing & Orchestration
+Tasks
+Spark preprocessing
+Transformation
+Feature engineering
+Data quality checks
+Airflow DAGs
+Workflow scheduling
+
+Sai Krishna
+Main Responsibility
+Analytics & Intelligence
+Tasks
+EDA
+Visualization
+Machine learning
+Model performance analysis
